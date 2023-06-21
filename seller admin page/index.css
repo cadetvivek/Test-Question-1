@@ -1,0 +1,34 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+form{
+    margin-bottom: 50px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+button{
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+li{
+    margin-bottom: 5px;
+}
+.delete-btn{
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}

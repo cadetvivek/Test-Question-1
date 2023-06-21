@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seller Admin Page</h1>
+        <form id="expense-form">
+            <div class="form-group">
+                <label for="expense">Choose Expense</label>
+                <select id="expense">
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Choose Description</label>
+                <select id="description">
+                    <option value="book">Book</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="petrol">Petrol</option>
+                    <option value="perasitamole">Perasitamole</option>
+                    <option value="mango">Mango</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="category">Choose Category</label>
+                <select id="category">
+                    <option value="papper">Papper</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="liquit">Liquit</option>
+                    <option value="medition">Medition</option>
+                    <option value="fruit">Fruit</option>
+                </select>
+            </div>
+            <button type="submit">Add Expense</button>
+        </form>
+        <ul id="expense-list"></ul>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
